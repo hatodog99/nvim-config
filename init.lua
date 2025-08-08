@@ -40,5 +40,5 @@ require('lazy').setup {
   require 'plugins.alpha',
   require 'plugins.indent-blankline',
   require 'plugins.misc',
-  require 'plugins.live-servert',
+  require 'plugins.live-server',
 }
