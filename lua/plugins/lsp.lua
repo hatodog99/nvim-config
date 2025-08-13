@@ -149,9 +149,9 @@ return {
             workspace = {
               checkThirdParty = false,
               library = {
-                    '${3rd}/luv/library',
-                    unpack(vim.api.nvim_get_runtime_file('', true)),
-                },
+                '${3rd}/luv/library',
+                unpack(vim.api.nvim_get_runtime_file('', true)),
+              },
             },
             diagnostics = {
               globals = { 'vim' },
@@ -203,10 +203,11 @@ return {
       bashls = {},
       dockerls = {},
       docker_compose_language_service = {},
-      -- tailwindcss = {},
+      tailwindcss = {},
+      eslint = {},
       -- graphql = {},
       html = { filetypes = { 'html', 'twig', 'hbs' } },
-      -- cssls = {},
+      cssls = {},
       -- ltex = {},
       -- texlab = {},
       jdtls = {},
