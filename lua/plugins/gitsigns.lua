@@ -7,6 +7,7 @@ return {
 
     vim.keymap.set('n', '<leader>gh', ':Gitsigns preview_hunk<CR>', { desc = '[G]it Preview [H]unk' })
   end,
+
   opts = {
     signs = {
       add = { text = '+' },
@@ -15,6 +16,7 @@ return {
       topdelete = { text = '‾' },
       changedelete = { text = '~' },
     },
+
     signs_staged = {
       add = { text = '+' },
       change = { text = '~' },
