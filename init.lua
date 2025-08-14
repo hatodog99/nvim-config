@@ -42,4 +42,5 @@ require('lazy').setup {
   require 'plugins.misc',
   require 'plugins.live-server',
   require 'plugins.image',
+  require 'plugins.comment',
 }
